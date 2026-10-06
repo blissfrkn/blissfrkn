@@ -19,10 +19,13 @@ I'm part of the development team behind Entegra, a commerce integration platform
 
 A mobile companion for organizing skincare routines, following progress and making product discovery easier. The product is being prepared for release with privacy, clear health boundaries and secure infrastructure as core engineering requirements.
 
-- Building the mobile application with **Flutter and Dart**
-- Designing APIs and background jobs with **Supabase, PostgreSQL and Cloudflare Workers**
-- Preparing subscriptions, CI/CD and production operations
-- Exploring sustainable, self-hostable infrastructure for growing products
+- Cross-platform mobile application built with **Flutter and Dart**, following feature-first Clean Architecture
+- Backend powered by **Supabase, PostgreSQL, Auth, Row Level Security, Storage and Edge Functions**
+- API and asynchronous job processing implemented with **Deno and TypeScript** workers
+- **Cloudflare Workers** gateway with WAF, rate limiting, caching and signed origin requests
+- Subscription and entitlement workflows with **RevenueCat**; notifications and crash reporting with **Firebase**
+- AI-assisted skincare guidance, asynchronous image analysis and automated product catalog workflows
+- Automated quality and delivery pipelines with **GitHub Actions and Docker**
 
 [Visit Cilt Bakımı Pro](https://ciltbakimipro.com)
 
@@ -53,7 +56,11 @@ A mobile companion for organizing skincare routines, following progress and maki
 <p>
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white">
+  <img alt="Deno" src="https://img.shields.io/badge/Deno-000000?style=flat-square&logo=deno&logoColor=white">
   <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white">
+  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white">
+  <img alt="RevenueCat" src="https://img.shields.io/badge/RevenueCat-F25A5A?style=flat-square&logo=revenuecat&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
 </p>
 
